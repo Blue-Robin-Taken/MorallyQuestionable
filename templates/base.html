@@ -1,28 +1,14 @@
 <!doctype html>
 <title>{% block title %}{% endblock %} - Flaskr</title>
-<!--<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
-<nav>
-  <h1>Welcome To Morally Questionable</h1>
-  {#
-<!--  <ul>-->
-<!--    {% if g.user %}-->
-<!--      <li><span>{{ g.user['username'] }}</span>-->
-<!--      <li><a href="{{ url_for('auth.logout') }}">Log Out</a>-->
-<!--    {% else %}-->
-<!--      <li><a href="{{ url_for('auth.register')</a>-->
-<!--    {% endif %} }}">Register</a>-->
-<!--      <li><a href="{{ url_for('auth.login') }}">Log In-->
-<!--  </ul>-->
-  #}
-</nav>
-<section class="content">
-  <header>
-    {% block header %}{% endblock %}
-  </header>
-  {% for message in get_flashed_messages() %}
-    <div class="flash">{{ message }}</div>
-  {% endfor %}
-  {% block content %}{% endblock %}
-</section>
-
-/*test*/
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<div class="navbar">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/questions">Questions</a></li>
+    <li><a href="/login">Login</a></li>
+  </ul>
+</div>
+<body>
+{% block content %}
+{% endblock %}
+</body>
