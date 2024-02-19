@@ -1,0 +1,6 @@
+# For Pycharm
+Lib
+Scripts
+pyenv.cfg
+*.cfg  # For cfg files
+.idea
