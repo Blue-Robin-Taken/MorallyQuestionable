@@ -2,5 +2,6 @@
 Lib
 Scripts
 pyenv.cfg
-*.cfg  # For cfg files
+*.cfg
+# For cfg files
 .idea
