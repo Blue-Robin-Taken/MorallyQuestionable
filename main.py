@@ -9,4 +9,6 @@ def home():
     return flask.render_template('home.html')
 
 
-app.run()
+@app.route('/about')
+def about():
+    return flask.render_template('about.html')
