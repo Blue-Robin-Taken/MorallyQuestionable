@@ -28,3 +28,28 @@ Remove --debug if in production.
 ```bash
 npm install
 ```
+
+Tailwind (might already be installed though):
+```bash
+npm install -D tailwindcss
+```
+
+# Contributing to this project
+
+## For people new to GitHub
+You'll need to learn how to program in HTML and Flask. For contributions, you'll need
+to learn how to use GitHub.
+
+See the following tutorials:
+- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+- https://www.youtube.com/watch?v=jRLGobWwA3Y
+
+## CSS
+For CSS, run the tailwind compile command:
+
+```bash
+npx tailwindcss -i ./static/style.css -o ./static/output.css --watch
+```
+
+Every time you save the style.css file in the static dir,
+it should save your changes to output.css. This includes tailwind changes.
