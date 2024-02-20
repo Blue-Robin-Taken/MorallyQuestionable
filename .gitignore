@@ -1,7 +1,9 @@
 # For Pycharm
 Lib
 Scripts
-pyenv.cfg
-*.cfg
+pyvenv.cfg
 # For cfg files
+*.cfg
 .idea
+node_modules
+__pycache__
