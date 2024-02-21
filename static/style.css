@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar ul {
-  list-style-type: none;
+
+.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #0a0a0a;
 }
 
-.navbar li {
-  float: left;
-}
 
-.navbar li a {
+.navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -22,7 +19,7 @@
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
   background-color: #111;
 }
 

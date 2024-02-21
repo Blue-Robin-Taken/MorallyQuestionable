@@ -7,13 +7,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="navbar flex-auto">
-  <ul>
-    <li class="font-kode base m-2"><a href="/">Home</a></li>
-    <li class="font-kode base m-2"><a href="/questions">Questions</a></li>
-    <li class="font-kode base m-2"><a href="/about">About</a></li>
-    <li class="font-kode base m-2 flex-auto justify-end"><a href="/login">Login</a></li>
-  </ul>
+<div class="navbar flex-row-reverse">
+    <a class="font-kode base m-2 float-left" href="/">Home</a></li>
+    <a class="font-kode base m-2 float-left" href="/questions">Questions</a></li>
+    <a class="font-kode base m-2 float-left" href="/about">About</a></li>
+    <a class="font-kode base m-2 float-right" href="/login">Login</a></li>
 </div>
 <br>
 {% block content %}

@@ -548,6 +548,14 @@ video {
   position: static;
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -568,12 +576,8 @@ video {
   display: flex;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
-}
-
-.justify-end {
-  justify-content: flex-end;
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .justify-center {
@@ -598,19 +602,14 @@ video {
   font-weight: 700;
 }
 
-.navbar ul {
-  list-style-type: none;
+.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #0a0a0a;
 }
 
-.navbar li {
-  float: left;
-}
-
-.navbar li a {
+.navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -618,7 +617,7 @@ video {
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
   background-color: #111;
 }
 
