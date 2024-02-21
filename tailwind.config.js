@@ -2,7 +2,11 @@
 module.exports = {
   content: './templates/*.html',
   theme: {
-    extend: {},
+    extend: {
+    fontFamily:{
+        'oswald':['Oswald']
+    }
+    },
   },
   plugins: [],
 }

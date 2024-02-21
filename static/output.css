@@ -544,6 +544,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-oswald {
+  font-family: Oswald;
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
