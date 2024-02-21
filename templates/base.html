@@ -1,6 +1,11 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='output.css') }}">
+<head>
+  <title>{% block title %}{% endblock %} - Flaskr</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='output.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
 <body>
 <div class="navbar">
   <ul>
@@ -11,6 +16,7 @@
   </ul>
 </div>
 <br>
+<h1 class="red-100">About</h1>
 {% block content %}
 {% endblock %}
 </body>

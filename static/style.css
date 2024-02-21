@@ -1,16 +1,20 @@
-ul {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0a0a0a;
 }
 
-li {
+.navbar li {
   float: left;
 }
 
-li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,8 +22,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
   background-color: #111;
 }
 
