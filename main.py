@@ -12,3 +12,8 @@ def home():
 @app.route('/about')
 def about():
     return flask.render_template('about.html')
+
+
+@app.route('/questions')
+def questions():
+    return flask.render_template('questions.html')
